@@ -135,10 +135,10 @@ function calculateFunction() {
 
   if (calorieIntake < 675) {
     document.getElementById("dietRecommend").innerHTML = "Recommended diet: You should aim for a higher calorie diet."
-  } else if (675 <= calorieIntake <= 1000) {
-    document.getElementById("dietRecommend").innerHTML = "Recommended diet: Your diet is normal and no change will be needed."
-  } else {
+  } else if (calorieIntake > 1000) {
     document.getElementById("dietRecommend").innerHTML = "Recommended diet: You should aim for a lower calorie diet."
+  } else {
+    document.getElementById("dietRecommend").innerHTML = "Recommended diet: Your diet is normal and no change will be needed."
   }
 }
 
