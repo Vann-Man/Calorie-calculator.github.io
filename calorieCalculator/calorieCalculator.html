@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calorieCalculator.css">
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+</head>
+<body>
+
+    <div class="navBar">
+        <nav>
+            <a href="../homePage/index.html"><img src="/photos/appleaday-cropped.png" alt="appleaday" class="logo"></a>
+            <ul class="navBarButton">
+                <li><a href="../homePage/index.html">Home</a></li>
+                <li><a href="../canteenMenus/canteenMenus.html">Menus</a></li>
+                <li><a href="calorieCalculator.html" class="currentPage">Calorie Calculator</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="calorieCalculator">
+        <h1 class="title">Calorie Calculator</h1>
+        <label class="foodSearchLabel">Add a food: </label>
+        <input type="text" placeholder="Enter food..." name="" id="userSearch">
+        <div class="buttons">
+            <button class="functionButton" id="addButton" onclick="addFood()">Add item</button>
+            <button class="functionButton" id="removeButton" onclick="removeFood()">Remove item</button>
+            <button class="functionButton" id="calculateButton" onclick="calculateFunction()">Calculate</button>
+        </div>
+            <p class="listLabel">Food added:</p>
+            <ul id="addedFood"></ul>
+            <img src="/photos/calories-calculator.png" alt="calories-calculator" class="calories-calculator">
+    </div>
+    <div class="dietPortion">
+        <p id="totalCaloriesLabel">Total Calories:</p>
+        <p id="dietRecommend">Recommended diet:</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="calorieCalculator.js"></script>
+</body>
+</html>

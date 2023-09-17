@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: Arial;
+    background-image: linear-gradient(to right, #16addf, #00b8da, #00c1c5, #00c8a2, #0dcb75);
+    max-width: 100vw;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+}
+
+.logo{
+    height: 9vh;
+    margin-top: 1vh;
+    margin-left: 3vw;
+}
+
+nav ul{
+    float: right;
+    margin-right: 5vw;
+    padding-top: 3vh;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1vw;
+    line-height: 5vh;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav a:active, nav a:hover{
+    color: #96fffa;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.currentPage{
+    text-decoration: underline;
+}
+
+
+.title{
+    background-color: #c4fcef;
+    margin: 7vw;
+    margin-top: 5vh;
+    padding: 4vh 3vw;
+    border-radius: 18px;
+    height: 20vh;
+    font-size: 38px;
+}
+
+.drinks-menu{
+    position: absolute;
+    height: 15vh;
+    top: 17.5vh;
+    right: 15vw;
+}
+
+.portionTitle{
+    margin-left: 8vw;
+    text-decoration: underline;
+    font-size: 36px;
+    color: white;
+}
+
+.portion{
+    margin-top: 3vh;
+    margin-bottom: 7vh;
+    margin-right: 3vh;
+}
+
+.contentPortion{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    background-color: #FFE8D3;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    max-width: 20vw;
+    min-width: 20vw;
+}
+
+.contentName{
+    font-size: 28px;
+}
+
+.contentCalories{
+    margin-top: 0.5vh;
+    font-size: 20px;
+}

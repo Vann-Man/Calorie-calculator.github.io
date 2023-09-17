@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: Arial;
+    background-image: linear-gradient(to right, #16addf, #00b8da, #00c1c5, #00c8a2, #0dcb75);
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+}
+
+.logo{
+    height: 9vh;
+    margin-top: 1vh;
+    margin-left: 3vw;
+}
+
+nav ul{
+    float: right;
+    margin-right: 5vw;
+    padding-top: 3vh;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1vw;
+    line-height: 5vh;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav a:active, nav a:hover{
+    color: #96fffa;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.currentPage{
+    text-decoration: underline;
+}
+
+
+.advertisment{
+    background-color: #c4fcef;
+    margin: 7vw;
+    margin-top: 5vh;
+    padding: 4vh 3vw;
+    border-radius: 18px;
+    height: 24vh;
+}
+
+.messsage{
+    width: 70vw;
+}
+
+.find-out-more-button{
+    background-color: white;
+    color: black;
+    padding: 2vh;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.find-out-more-button:active, .find-out-more-button:hover{
+    border-style: solid;
+}
+
+p.title{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+
+.foodIcon{
+    height: 20vh;
+    position: absolute;
+    top: 17vh;
+    right: 10vw;
+}
+
+.dietIcon{
+    height: 22vh;
+    position: absolute;
+    top: 53vh;
+    right: 15vw;
+}
